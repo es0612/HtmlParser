@@ -1,0 +1,40 @@
+####################################
+# Disabled
+####################################
+disabled_rules:
+- trailing_whitespace
+- vertical_whitespace
+- colon
+- nesting
+- line_length
+- identifier_name
+- todo
+- function_body_length
+- type_name
+- unused_optional_binding
+- leading_whitespace
+- trailing_comma
+- force_cast
+- large_tuple
+- comma
+- force_try
+
+####################################
+# Opt In
+####################################
+opt_in_rules:
+- overridden_super_call
+- prohibited_super_call
+- empty_count
+- explicit_init
+- fatal_error_message
+- nimble_operator
+- object_literal
+- redundant_nil_coalescing
+
+excluded:
+- Carthage
+
+file_length:
+  - 500  # warning
+  - 1000 # error
