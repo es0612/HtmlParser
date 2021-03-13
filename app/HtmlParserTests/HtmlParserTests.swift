@@ -1,4 +1,5 @@
 import XCTest
+import Nimble
 @testable import HtmlParser
 
 class HtmlParserTests: XCTestCase {
