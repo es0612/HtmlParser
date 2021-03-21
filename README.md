@@ -2,5 +2,5 @@
 
 ## setup for Carthage
 ```
-carthage update --use-xcframeworks
+carthage bootstrap --platform iOS --use-xcframeworks
 ```
