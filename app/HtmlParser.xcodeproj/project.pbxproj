@@ -18,6 +18,7 @@
 		38D990622606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D990612606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift */; };
 		38D9906A2606E25F003D78CB /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D990692606E25F003D78CB /* Alamofire.xcframework */; };
 		38D9906B2606E25F003D78CB /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38D990692606E25F003D78CB /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38D9906F2606F05C003D78CB /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = 38D9906E2606F05C003D78CB /* test1.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		38D9905D2606D4E4003D78CB /* WebPageAbstractInfoRetrieve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageAbstractInfoRetrieve.swift; sourceTree = "<group>"; };
 		38D990612606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageAbstractInfoRetrieveTests.swift; sourceTree = "<group>"; };
 		38D990692606E25F003D78CB /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		38D9906E2606F05C003D78CB /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		38D990682606DE97003D78CB /* TestFiles */ = {
 			isa = PBXGroup;
 			children = (
+				38D9906E2606F05C003D78CB /* test1.html */,
 			);
 			name = TestFiles;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D9906F2606F05C003D78CB /* test1.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

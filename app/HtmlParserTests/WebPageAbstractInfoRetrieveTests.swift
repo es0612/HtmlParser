@@ -7,7 +7,8 @@ class WebPageAbstractInfoRetrieveTests: QuickSpec {
     override func spec() {
         describe("Retrieve Web page Abstract Infomation.") {
             context("") {
-                it("") {
+                it("get html contents") {
+                    print(self.readHtmlFile(fileName: "test1"))
                 }
             }
         }
@@ -15,7 +16,10 @@ class WebPageAbstractInfoRetrieveTests: QuickSpec {
 
 
     func readHtmlFile(fileName: String) -> String {
-        guard let fileURL = Bundle.main.url(forResource: fileName, withExtension: "html")  else {
+
+        let testBundle = Bundle(for: type(of: self))
+
+        guard let fileURL = testBundle.url(forResource: fileName, withExtension: "html")  else {
             fatalError("file not found.")
         }
 
