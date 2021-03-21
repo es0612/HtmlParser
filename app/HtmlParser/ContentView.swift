@@ -12,7 +12,7 @@ struct ContentView: View {
         }
         .padding()
         .onAppear {
-            WebPageAbstractInfoRetrieve.get(from: "") { result in
+            WebPageAbstractInfoRetrieve.get(from: "https://www.yahoo.co.jp/") { result in
                 switch result {
                 case .success(let webInfo):
                     self.webPageAbstractInfo = webInfo

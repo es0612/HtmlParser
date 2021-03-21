@@ -18,6 +18,7 @@ disabled_rules:
 - large_tuple
 - comma
 - force_try
+- nimble_operator
 
 ####################################
 # Opt In

@@ -19,6 +19,10 @@
 		38D9906A2606E25F003D78CB /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D990692606E25F003D78CB /* Alamofire.xcframework */; };
 		38D9906B2606E25F003D78CB /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38D990692606E25F003D78CB /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38D9906F2606F05C003D78CB /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = 38D9906E2606F05C003D78CB /* test1.html */; };
+		38D990772607245E003D78CB /* HtmlFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D990762607245E003D78CB /* HtmlFileReader.swift */; };
+		38D9907B260733FF003D78CB /* test2.html in Resources */ = {isa = PBXBuildFile; fileRef = 38D9907A260733FF003D78CB /* test2.html */; };
+		38D9907F26073406003D78CB /* test3.html in Resources */ = {isa = PBXBuildFile; fileRef = 38D9907E26073406003D78CB /* test3.html */; };
+		38D9908326073598003D78CB /* test4.html in Resources */ = {isa = PBXBuildFile; fileRef = 38D9908226073598003D78CB /* test4.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		38D990612606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageAbstractInfoRetrieveTests.swift; sourceTree = "<group>"; };
 		38D990692606E25F003D78CB /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		38D9906E2606F05C003D78CB /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
+		38D990762607245E003D78CB /* HtmlFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlFileReader.swift; sourceTree = "<group>"; };
+		38D9907A260733FF003D78CB /* test2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test2.html; sourceTree = "<group>"; };
+		38D9907E26073406003D78CB /* test3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test3.html; sourceTree = "<group>"; };
+		38D9908226073598003D78CB /* test4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test4.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,7 @@
 				38D990682606DE97003D78CB /* TestFiles */,
 				3879824625FD5D5E00F6C28D /* Info.plist */,
 				38D990612606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift */,
+				38D990762607245E003D78CB /* HtmlFileReader.swift */,
 			);
 			path = HtmlParserTests;
 			sourceTree = "<group>";
@@ -157,6 +166,9 @@
 		38D990682606DE97003D78CB /* TestFiles */ = {
 			isa = PBXGroup;
 			children = (
+				38D9908226073598003D78CB /* test4.html */,
+				38D9907E26073406003D78CB /* test3.html */,
+				38D9907A260733FF003D78CB /* test2.html */,
 				38D9906E2606F05C003D78CB /* test1.html */,
 			);
 			name = TestFiles;
@@ -254,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D9906F2606F05C003D78CB /* test1.html in Resources */,
+				38D9908326073598003D78CB /* test4.html in Resources */,
+				38D9907F26073406003D78CB /* test3.html in Resources */,
+				38D9907B260733FF003D78CB /* test2.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D990772607245E003D78CB /* HtmlFileReader.swift in Sources */,
 				38D990622606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
