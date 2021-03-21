@@ -1,3 +1,4 @@
 github "Quick/Quick"
 github "Quick/Nimble"
 github "tid-kijyun/Kanna"
+github "Alamofire/Alamofire"

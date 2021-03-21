@@ -1,3 +1,4 @@
+github "Alamofire/Alamofire" "5.4.1"
 github "Quick/Nimble" "v9.0.0"
 github "Quick/Quick" "v3.1.2"
 github "tid-kijyun/Kanna" "5.2.4"
