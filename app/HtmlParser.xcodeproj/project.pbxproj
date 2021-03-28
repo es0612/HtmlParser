@@ -17,7 +17,6 @@
 		38D9905E2606D4E4003D78CB /* WebPageAbstractInfoRetrieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9905D2606D4E4003D78CB /* WebPageAbstractInfoRetrieve.swift */; };
 		38D990622606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D990612606DAB6003D78CB /* WebPageAbstractInfoRetrieveTests.swift */; };
 		38D9906A2606E25F003D78CB /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D990692606E25F003D78CB /* Alamofire.xcframework */; };
-		38D9906B2606E25F003D78CB /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38D990692606E25F003D78CB /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38D9906F2606F05C003D78CB /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = 38D9906E2606F05C003D78CB /* test1.html */; };
 		38D990772607245E003D78CB /* HtmlFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D990762607245E003D78CB /* HtmlFileReader.swift */; };
 		38D9907B260733FF003D78CB /* test2.html in Resources */ = {isa = PBXBuildFile; fileRef = 38D9907A260733FF003D78CB /* test2.html */; };
@@ -35,28 +34,14 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		38D9906C2606E25F003D78CB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				38D9906B2606E25F003D78CB /* Alamofire.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		3879822F25FD5D5600F6C28D /* HtmlParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HtmlParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3879822F25FD5D5600F6C28D /* HtmlParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HtmlParser.app; path = "/Users/es_mac/workspace/HtmlParser/app/build/Debug-iphoneos/HtmlParser.app"; sourceTree = "<absolute>"; };
 		3879823225FD5D5600F6C28D /* HtmlParserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlParserApp.swift; sourceTree = "<group>"; };
 		3879823425FD5D5600F6C28D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3879823625FD5D5D00F6C28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3879823925FD5D5D00F6C28D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3879823B25FD5D5D00F6C28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3879824025FD5D5E00F6C28D /* HtmlParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3879824025FD5D5E00F6C28D /* HtmlParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HtmlParserTests.xctest; path = "/Users/es_mac/workspace/HtmlParser/app/build/Debug-iphoneos/HtmlParserTests.xctest"; sourceTree = "<absolute>"; };
 		3879824625FD5D5E00F6C28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3879826C25FD698D00F6C28D /* Kanna.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Kanna.xcframework; path = Carthage/Build/Kanna.xcframework; sourceTree = "<group>"; };
 		3879827125FD699100F6C28D /* Nimble.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Nimble.xcframework; path = Carthage/Build/Nimble.xcframework; sourceTree = "<group>"; };
@@ -98,18 +83,8 @@
 			children = (
 				3879823125FD5D5600F6C28D /* HtmlParser */,
 				3879824325FD5D5E00F6C28D /* HtmlParserTests */,
-				3879823025FD5D5600F6C28D /* Products */,
 				3879826B25FD698C00F6C28D /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		3879823025FD5D5600F6C28D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3879822F25FD5D5600F6C28D /* HtmlParser.app */,
-				3879824025FD5D5E00F6C28D /* HtmlParserTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3879823125FD5D5600F6C28D /* HtmlParser */ = {
@@ -185,7 +160,6 @@
 				3879822C25FD5D5600F6C28D /* Frameworks */,
 				3879822D25FD5D5600F6C28D /* Resources */,
 				3879826625FD62F000F6C28D /* Run Script for SwiftLint */,
-				38D9906C2606E25F003D78CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,7 +215,7 @@
 				Base,
 			);
 			mainGroup = 3879822625FD5D5600F6C28D;
-			productRefGroup = 3879823025FD5D5600F6C28D /* Products */;
+			productRefGroup = 3879822625FD5D5600F6C28D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
